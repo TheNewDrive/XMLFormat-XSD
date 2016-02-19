@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="chargers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="charger" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="id"/>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element name="coordinate">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:double" name="longitude"/>
+                    <xs:element type="xs:double" name="latitude"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="zipCode"/>
+                    <xs:element type="xs:string" name="adres"/>
+                    <xs:element type="xs:string" name="city"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="amount"/>
+                    <xs:element type="xs:string" name="connector"/>
+                    <xs:element type="xs:string" name="power"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="general">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:boolean" name="paid"/>
+                    <xs:element type="xs:string" name="telNumber"/>
+                    <xs:element type="xs:string" name="openingHours"/>
+                    <xs:element type="xs:string" name="notes"/>
+                    <xs:element type="xs:dateTime" name="dateLastUpdate"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

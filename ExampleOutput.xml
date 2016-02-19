@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE note SYSTEM
+"http://www.w3schools.com/xml/note.dtd">
+
+<chargers>
+	<charger>
+		<id>60441</id>
+		<title>The New Drive</title>
+		<coordinate>
+			<longitude>3.9125358</longitude>	
+			<latitude>50.5336098</latitude>
+		</coordinate>
+		<address>
+			<zipCode>7050</zipCode>
+			<adres>Dorpsstraat 34</adres>
+			<city>Maastricht</city>
+		</address>
+		<info>
+			<amount>3</amount>
+			<connector>Mennekes</connector>
+			<power>11KW</power>
+		</info>
+		<general>
+			<paid>true</paid>
+			<telNumber>003212345789</telNumber>
+			<openingHours>14:00 tot 18:00</openingHours>
+			<notes>sdjflk dlfjlk djflkdj lksdflk </notes>
+			<dateLastUpdate>24-11-2011 14:10:54</dateLastUpdate>
+		</general>
+		
+	</charger>
+		<charger>
+		<id>45984589</id>
+		<title>The New Drive1</title>
+		<coordinate>
+			<longitude>4.9125358</longitude>	
+			<latitude>51</latitude>
+		</coordinate>
+		<address>
+			<zipCode>3434</zipCode>
+			<adres>Dorpsstraat 23</adres>
+			<city>SJengcity</city>
+		</address>
+		<info>
+			<amount>2</amount>
+			<connector>Shucko</connector>
+			<power>20KW</power>
+		</info>
+		<general>
+			<paid>False</paid>
+			<telNumber>003212345789</telNumber>
+			<openingHours>14:00 tot 18:00</openingHours>
+			<notes>sdjflk dlfjlk djflkdj lksdflk </notes>
+			<dateLastUpdate>24-11-2011 14:10:54</dateLastUpdate>
+		</general>
+		
+	</charger>
+</chargers>
